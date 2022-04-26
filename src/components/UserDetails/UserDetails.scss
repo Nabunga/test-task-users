@@ -1,0 +1,59 @@
+@import '../../styles/main.scss';
+
+.user-details {
+  position: relative;
+  margin: 0 41px 0 36px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 13px 0 10px 0;
+  }
+  &__sub-header {
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  &__header-btn {
+    width: 116px;
+    height: 27px;
+    background-color: $blue-btn;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+}
+
+.details {
+  border: 1px solid $user-card-bgc;
+  border-radius: 8px;
+  &__textarea {
+    width: 420px;
+    height: 55px;
+    border: 1px solid $user-details-input-border;
+    border-radius: 5px;
+    margin: 0 0 20px 12px;
+    padding: 5px 5px 5px 10px;
+    font-family: 'Roboto';
+    resize: none;
+  }
+  &__form-btn {
+    width: 85px;
+    height: 24px;
+    border-radius: 5px;
+    background-color: $green-btn;
+    color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    pointer-events: all;
+  }
+}
+
+.btn-disabled {
+  background-color: $gray-btn;
+  pointer-events: none;
+}

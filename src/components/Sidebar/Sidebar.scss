@@ -1,0 +1,35 @@
+@import '../../styles/main.scss';
+
+.sidebar {
+  width: 152px;
+  height: 100vh;
+  background-color: $sidebar-bgc;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    &-header {
+      font-family: 'Roboto';
+      font-size: 1.2rem;
+      margin-top: 35px;
+      font-weight: 700;
+    }
+    &-btn {
+      font-family: 'Roboto';
+      font-size: 1.2rem;
+      height: 24px;
+      background-color: $blue-btn;
+      color: #fff;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  }
+}
+
+.by-city {
+  width: 86px;
+}
+
+.by-company {
+  width: 105px;
+}
